@@ -1,0 +1,60 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 10%;
+   
+  }
+
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 40%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-group {
+    margin-top: .0001px;
+    margin-bottom: 20px;
+    padding-left: 260px;
+    text-align: left;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #161DC8;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #F6102C;
+    color: #fff;
+  }
+
+  .login-text1 {
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .login-text, .login-form {
+    text-align: center;
+  }
