@@ -27,7 +27,9 @@ export default function SignUp(){
                     </div>
                     <div className="form-group">
                         <label for="phone">Phone</label>
-                        <input type="tel" name="phone" id="phone" required className="form-control" placeholder="Enter your phone number" aria-describedby="helpId" />
+                        <input type="tel" name="phone" id="phone" required className="form-control" placeholder="Enter your phone number" pattern="[0-9]{10}" aria-describedby="helpId" />
+                        <br/>
+                        <small className="form-text text-muted">Phone number must be 10 digits.</small>
                     </div>
                     <div className="form-group">
                         <label for="email">Email</label>
